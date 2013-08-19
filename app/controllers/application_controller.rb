@@ -41,8 +41,8 @@ class ApplicationController < ActionController::Base
   private
 
   def ensure_domain
-    if Rails.env.production? && request.env['HTTP_HOST'] != 'glacial-tundra-6120.herokuapp.com/'
-      redirect_to "glacial-tundra-6120.herokuapp.com/", :status => 301
+    if Rails.env.production? && request.env['HTTP_HOST'] != 'frozen-sea-5333.herokuapp.com/'
+      redirect_to "frozen-sea-5333.herokuapp.com/", :status => 301
     end
   end
 
