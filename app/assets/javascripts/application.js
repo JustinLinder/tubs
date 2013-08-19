@@ -1,0 +1,16 @@
+//= require_tree ../../../vendor/assets/javascripts/
+//= require shim
+//= require dim-the-lights
+//= require main
+//= require custom-playlists-dropdown
+//= require user
+//= require player
+//= require unity
+//= require playlist
+//= require video
+//= require import
+//= require tabs
+//= require report
+//= require custom-playlist-settings
+//= require history
+//= require whats-hot
